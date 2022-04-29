@@ -1,0 +1,27 @@
+/* error notices */
+
+.commonError {
+    color: #da0707;
+    font-size: 0.8em;
+    font-style: italic;
+    line-height: 15px;
+    margin: 0;
+    padding: 2px 0 0;
+    position: absolute;
+}
+
+
+/* submit button*/
+
+#submitbtn {
+    background-color: #b3317a;
+    border: 1px solid #b3317a;
+    margin-top: 25px;
+    margin-right: 10px;
+    font-size: 17px;
+}
+
+#submitbtn:hover {
+    background-color: #912c65;
+    border: 1px solid #912c65;
+}

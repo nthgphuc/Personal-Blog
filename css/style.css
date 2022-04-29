@@ -1,0 +1,183 @@
+/* common */
+
+body {
+    font-family: "Glory", serif;
+    color: #000000;
+    font-size: 1.1em;
+}
+
+h1 {
+    font-size: 2.4em;
+}
+
+h2 {
+    font-size: 1.8em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+h4 {
+    font-size: 1.3em;
+}
+
+h5 {
+    font-size: 1.1em;
+}
+
+h6 {
+    font-size: 0.9em;
+}
+
+p {
+    text-align: justify;
+    line-height: 4vh;
+    margin: 2vh 2vw;
+}
+
+a {
+    color: #000000;
+}
+
+
+/* header */
+
+header {
+    color: #ffffff;
+    position: relative;
+    top: 0;
+    overflow: hidden;
+}
+
+header .myCarousel {
+    position: absolute;
+    z-index: -1;
+}
+
+header h1 {
+    font-family: Jua, sans-serif;
+    background: #fcc2e4;
+    background: rgba(252, 184, 222, 0.685);
+    width: 100%;
+    text-align: center;
+    font-size: 3.5em;
+    position: absolute;
+}
+
+header p {
+    margin: 0 20px;
+    font-style: italic;
+    position: absolute;
+    top: 0;
+}
+
+header h1:hover {
+    background: rgba(248, 167, 213, 0.685);
+}
+
+
+/* navigation */
+
+nav {
+    color: #b3317a;
+}
+
+nav h2 {
+    font-weight: bold;
+}
+
+#homelink,
+#productlink,
+#lilylink,
+#orderlink,
+.dropdown-item {
+    color: #817a7e;
+}
+
+#homelink:hover,
+#productlink:hover,
+#lilylink:hover,
+#orderlink:hover {
+    background: #d84a9a;
+    color: #ffffff;
+}
+
+.dropdown-item:hover {
+    background-color: #d84a9a;
+    color: #ffffff
+}
+
+
+/* article */
+
+article h1 {
+    margin: 1vh 2vw 5vh;
+    color: #b3317a;
+    font-weight: bold;
+}
+
+h2 {
+    margin: 5vh 2vw 2vh;
+    color: #b3317a;
+}
+
+h3 {
+    margin: 2vh 2vw;
+    color: #b3317a;
+}
+
+article a {
+    margin-left: 2vw;
+    font-style: italic;
+    color: #b3317a;
+    font-size: 0.9em;
+}
+
+article a:hover {
+    font-weight: bold;
+    color: #b3317a;
+}
+
+article {
+    margin-bottom: 5vh;
+}
+
+main ul {
+    margin-left: 2vw;
+}
+
+.date {
+    margin: 0 2vw;
+    font-style: italic;
+    font-size: 0.8em;
+}
+
+img {
+    margin: 0 auto;
+    display: block;
+}
+
+.tip {
+    font-weight: bold;
+}
+
+article ul li {
+    background: url(../images/Pink-correct-icon-design-on-transparent-background-PNG.png) 0 1.2vh no-repeat;
+    background-size: 13px;
+}
+
+
+/* footer */
+
+footer {
+    margin: 0 auto 1vh;
+    font-style: italic;
+    padding: 1vh;
+    color: #ffffff;
+    background: #b3317a;
+    background: -webkit-linear-gradient(to right, #b3317a, #ffffff);
+    background: -moz-linear-gradient(to right, #b3317a, #ffffff);
+    background: -o-linear-gradient(to right, #b3317a, #ffffff);
+    background: linear-gradient(to right, #b3317a, #ffffff);
+}
